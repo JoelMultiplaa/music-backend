@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/subscriptions")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 public class SubscriptionController {
     private final SubscriptionService subscriptionService;

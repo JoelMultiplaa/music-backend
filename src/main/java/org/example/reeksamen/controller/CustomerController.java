@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/customers")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 public class CustomerController {
     private final CustomerService customerService;

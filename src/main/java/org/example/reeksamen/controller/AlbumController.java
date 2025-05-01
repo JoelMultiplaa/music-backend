@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/albums")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 public class AlbumController {
     private final AlbumService albumService;

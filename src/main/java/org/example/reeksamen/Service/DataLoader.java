@@ -43,7 +43,7 @@ public class DataLoader implements CommandLineRunner {
                 "Pop",
                 true,
                 s1,
-                new ArrayList<>()       // TILFØJ denne tomme liste
+                new ArrayList<>()
         ));
 
         Album a2 = albumRepo.save(new Album(
@@ -53,7 +53,7 @@ public class DataLoader implements CommandLineRunner {
                 "Rock",
                 false,
                 s1,
-                new ArrayList<>()       // og her
+                new ArrayList<>()
         ));
     }
 }
